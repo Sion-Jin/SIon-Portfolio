@@ -1,0 +1,103 @@
+
+/* Plus Jakarta Sans */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Tulpen */
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+
+/* Pretendard */
+@font-face {
+  font-family: 'Pre';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+/* 'Handjet' */
+@font-face {
+  font-family: "hand";
+  src: url("../fonts/Handjet-VariableFont_ELGR\,ELSH\,wght.ttf") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+:root {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+       text-size-adjust: 100%;
+  cursor: default;
+/*  line-height: 1.5;*/
+  overflow-wrap: break-word;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Pre', 'Hand';
+  letter-spacing: -1;
+  color: #0a0a0a;
+ /* background: #EFEFEF;*/
+}
+
+body ::-moz-selection {
+  background: rgb(43, 43, 43);
+  color: #fff;
+}
+body ::selection {
+  background-color: #333;
+  color: #e5e6de;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+

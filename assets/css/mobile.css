@@ -1,0 +1,182 @@
+
+
+@media (max-width: 767px) {
+
+  .load_page .text_wrap {
+    width: 100%;
+  }
+  .load_page .load_inner {
+    padding: 0 10vw;
+  }
+
+  .group_nav .nav_link {
+    position: relative;
+    font-size: 21px;
+    padding: 8px 16px;
+  }
+
+  .pf_spacer .con{
+    padding: 0;
+    margin: 0;
+  }
+
+  .inner .project .group_portfolio {
+    display: contents !important;
+  }
+  
+  .portfolio_inner .group_portfolio .listWrap {
+    display: contents; 
+    box-sizing: border-box;
+    transition: all 2s ease-in-out;
+    overflow: hidden;
+  }
+
+  .main_visual .textWrap img {
+    width: 92%;
+  }
+  .main_visual .textbox .textWrap span{
+    font-size: 3vw;
+  }
+  .main_visual .textbox .textWrap span:nth-child(1){
+    position: absolute;
+    top: 30%;
+    left: 7%;
+  }
+  .main_visual .textbox .textWrap span:nth-child(2){
+    position: absolute;
+    top: 30%;
+    left: 45%;
+  }
+  .main_visual .textbox .textWrap span:nth-child(3){
+    position: absolute;
+    top: 30%;
+    left: 71%;
+  }
+  .main_visual .textbox .textWrap span:nth-child(4){
+    bottom: 24%;
+    right: 10%;
+    font-size: 3.4vw;
+  }
+
+  .pf_spacer .con .listWrap .listitem {
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .pf_spacer .con .listWrap .listitem{
+    font-size: 45vw;
+  }
+  
+  .pf_spacer .con .listWrap .listitem .tag{
+    font-size: 3vw;
+    position: absolute;
+    bottom: 15%;
+    left: 3%;
+  }
+  
+  .pf_spacer .con .listWrap .text {
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+  }
+
+  .pf_spacer .con .listWrap .text h2{
+  font-size: 3.5vw;
+  margin-top: 1vw;
+  }
+  
+  
+  .pf_spacer .con .listWrap .listitem .HoverIMG img {
+    position: absolute;
+    top: -225px;
+    left: 0;
+  }
+  
+  .pf_spacer .project .portfolio_inner{
+    padding-top: 2em;
+  }
+  
+  .pf_spacer  .project .group_portfolio {
+    grid-row-gap: 30vw;
+    padding-bottom: 20px;
+  }
+  
+  .pf_spacer2{
+  margin-top: 35em;
+  }
+  .ProjectWrap{
+    padding-top: 10em;
+  }
+
+  .ProjectWrap .ProjectItem{
+    width: 48%;
+  }
+  .ProjectWrap .ProjectItem:last-child{
+  display: none;
+  }
+  .ProjectWrap .ProjectItem .ProjectTag p {
+  }
+  
+  .ProjectWrap .ProjectItem .ProjectTag p:nth-child(1){
+    font-size: 16px;
+    
+  }
+
+  .ProjectWrap .ProjectItem .ProjectTag p:nth-child(2){
+  opacity: .7;
+  font-size: 16px;
+  }
+  
+
+  .ProjectItem button .viewwrap .text{
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer_top {
+    width: initial;
+    padding: 6rem 13vw;
+  }
+
+  .footer_top .text {
+    font-size: 22px;
+    text-indent: 1.9rem;
+  }
+
+  .footer_top .text .star {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer_top .text .arrow {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+  }
+
+  .footer_top {
+    width: initial;
+    padding: 10rem 5vw;
+}
+
+  .footer_bottom .text_area {
+    font-size: 3vw;
+}
+
+.footer_bottom img{
+  display: none;
+}
+
+.footer_bottom .copyright {
+  padding-top: 2vw;
+  font-size: 3vw;
+}
+
+}/* --- 767px ---*/
+/* --------------*/
+
+
