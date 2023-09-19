@@ -19,6 +19,11 @@
     padding: 0;
     margin: 0;
   }
+  
+  .pf_spacer .con .listitem .info .hoverText {
+    
+    top: 27%;
+  }
 
   .inner .project .group_portfolio {
     display: contents !important;
